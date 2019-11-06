@@ -43,6 +43,6 @@ hedging 菠菜对冲提醒
 
 命令行中运行 
 * 测试环境
- #nohup java -jar hedging-0.0.1-SNAPSHOT.jar --spring.profiles.active=integ > /dev/null &
+ \# nohup java -jar hedging-0.0.1-SNAPSHOT.jar --spring.profiles.active=integ > /dev/null &
 * 生产环境
- #nohup java -jar hedging-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod > /dev/null &
+ \# nohup java -jar hedging-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod > /dev/null &
